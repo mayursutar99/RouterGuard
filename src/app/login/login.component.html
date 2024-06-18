@@ -1,0 +1,8 @@
+<div class="login-container">
+    <h2>Login Form</h2>
+    <form>
+        <input type="text" name="username" placeholder="Username" required #username>
+        <input type="password" name="password" placeholder="Password" required #pass>
+        <input type="button" value="Login"class="btn" (click)="Login(username.value,pass.value)">
+    </form>
+</div>

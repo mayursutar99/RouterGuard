@@ -1,0 +1,23 @@
+footer{
+    background-color: black;
+    color: white;
+    height: 200px;
+}
+.firstDiv{
+    display: flex;
+}
+.firstDiv div{
+    margin: 1rem;
+}
+footer div{
+    width: 100%;
+}
+ul:first-child{
+    margin-top: 20px;
+}
+ul{
+    margin-left:10px;
+}
+.Copyright{
+    text-align: center;
+}
